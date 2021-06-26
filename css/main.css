@@ -326,22 +326,25 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-.contact, .contact_wrap, .contact_form {
+.contact,
+.contact_wrap,
+.contact_form {
   display: flex;
 }
 
-.contact_wrap, .contact_form {
+.contact_wrap,
+.contact_form {
   flex-direction: column;
   justify-content: space-around;
 }
 
 .contact {
-  background: #6070FF;
+  background: #6070ff;
   border-top-left-radius: 100px;
   height: 110vh;
   min-height: 900px;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 .contact_wrap {
@@ -349,21 +352,21 @@ li {
   height: 70vh;
   margin-top: 15vh;
   align-items: center;
-  font-family: 'Poppins';
 }
 
-.contact_wrap, .textarea {
-  font-family: 'Poppins';
+.contact_wrap,
+.textarea {
+  font-family: 'Poppins', sans-serif;
 }
 
 .head {
-  color: #ffffff;
+  color: #fff;
   font-size: 2rem;
   margin-bottom: 3vh;
 }
 
 .bodyText {
-  color: #EBEBFF;
+  color: #ebebff;
   font-size: 18px;
 }
 
@@ -371,7 +374,8 @@ li {
   margin: 5vh 0 3vh 0;
 }
 
-.form_fields, .bodyText {
+.form_fields,
+.bodyText {
   width: 40vw;
   min-width: 220px;
 }
@@ -390,7 +394,8 @@ li {
 .form_submit {
   background-color: #fff;
   font-size: 18px;
-  color: #6070FF;
+  color: #6070ff;
+
   /* color: #000; */
   align-self: center;
   padding: 15px;
