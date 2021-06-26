@@ -338,52 +338,62 @@ li {
 .contact {
   background: #6070FF;
   border-top-left-radius: 100px;
-  height: 100vh;
-  justify-content: center
+  height: 110vh;
+  min-height: 900px;
+  justify-content: center;
+  align-items: center
 }
 
 .contact_wrap {
-  width: 50vw;
-  height: 85vh;
-  margin-top: 14vh;
+  min-width: 50vw;
+  height: 70vh;
+  margin-top: 15vh;
   align-items: center;
   font-family: 'Poppins';
 }
 
 .head {
-  color: #fff;
-  font-size: 3rem;
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 1.5vh;
 }
 
 .bodyText {
   color: #EBEBFF;
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 
 .contact_form {
-  height: 60vh;
+  margin: 5vh 0 3vh 0;
+}
+
+.form_fields, .bodyText {
+  width: 40vw;
+  min-width: 220px;
 }
 
 .form_fields {
-  height: 5vh;
-  width: 40vw;
+  height: 7vh;
+  margin-bottom: 3vh;
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 17px;
 }
 
 .textarea {
-  height: unset;
-  text-align: left;
+  height: 20vh;
+  font-family: 'Poppins';
 }
 
 .form_submit {
   background-color: #fff;
-  font-size: 1.3rem;
+  font-size: 18px;
   color: #6070FF;
   align-self: center;
   padding: 10px 15px;
-  max-width: 20vw;
+  width: 20vw;
+  min-width: 150px;
   outline: none;
+  margin-top: 2vh;
   border: none;
   border-radius: 8px;
 }
