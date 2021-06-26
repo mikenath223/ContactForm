@@ -325,3 +325,65 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact, .contact_wrap, .contact_form {
+  display: flex;
+}
+
+.contact_wrap, .contact_form {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact {
+  background: #6070FF;
+  border-top-left-radius: 100px;
+  height: 100vh;
+  justify-content: center
+}
+
+.contact_wrap {
+  width: 50vw;
+  height: 85vh;
+  margin-top: 14vh;
+  align-items: center;
+  font-family: 'Poppins';
+}
+
+.head {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.bodyText {
+  color: #EBEBFF;
+  font-size: 1.5rem;
+}
+
+.contact_form {
+  height: 60vh;
+}
+
+.form_fields {
+  height: 5vh;
+  width: 40vw;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.textarea {
+  height: unset;
+  text-align: left;
+}
+
+.form_submit {
+  background-color: #fff;
+  font-size: 1.3rem;
+  color: #6070FF;
+  align-self: center;
+  padding: 10px 15px;
+  max-width: 20vw;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
