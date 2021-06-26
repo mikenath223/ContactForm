@@ -352,10 +352,14 @@ li {
   font-family: 'Poppins';
 }
 
+.contact_wrap, .textarea {
+  font-family: 'Poppins';
+}
+
 .head {
   color: #ffffff;
   font-size: 2rem;
-  margin-bottom: 1.5vh;
+  margin-bottom: 3vh;
 }
 
 .bodyText {
@@ -381,15 +385,15 @@ li {
 
 .textarea {
   height: 20vh;
-  font-family: 'Poppins';
 }
 
 .form_submit {
   background-color: #fff;
   font-size: 18px;
   color: #6070FF;
+  /* color: #000; */
   align-self: center;
-  padding: 10px 15px;
+  padding: 15px;
   width: 20vw;
   min-width: 150px;
   outline: none;
