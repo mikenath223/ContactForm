@@ -216,12 +216,15 @@
     </div>
     <section class="contact">
       <div class="contact_wrap">
-        <h1 class="head">Contact Form</h1>
-        <h3 class="bodyText">If you have an application you are interested in developing,
-          a feature that you need built or a project that needs coding. I’d love to help with it. </h3>
+        <h3 class="bodyText">I'm always interested in hearing about new projects, 
+          so if you'd like to chat please get in touch.</h3>
         <form action="https://formspree.io/f/mzbyvzqb" method="post" class="contact_form">
-          <input type="text" required maxlength="30" placeholder="Alexandra Loremipsum" name="name" id="name" class="form_fields">
-          <input type="email" name="email" required id="email" placeholder="aoremipsum@mail.com" class="form_fields">
+          <input type="text" required maxlength="30" placeholder="Full Name" name="name" id="name" class="form_fields form_fullName">
+          <fieldset class="form_names">
+            <input type="text" required maxlength="30" placeholder="First Name" name="name" id="name" class="form_fields">
+            <input type="text" required maxlength="30" placeholder="Last Name" name="name" id="name" class="form_fields">
+          </fieldset>
+          <input type="email" name="email" required id="email" placeholder="Email address" class="form_fields">
           <textarea class="form_fields textarea" required maxlength="500" name='message' id='message' placeholder="Write your message here" cols="40"></textarea>
           <input type="submit" value="Get In Touch" class="form_submit">
         </form>
