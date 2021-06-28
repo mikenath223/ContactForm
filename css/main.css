@@ -401,7 +401,7 @@ li {
   border-width: 0;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .form_fullName {
     display: initial;
   }
